@@ -123,3 +123,36 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.web-item{height: 503px;}
+.layout-container{height: 500px; -webkit-transition: 20s ease-out;}
+.demo-effects:hover .layout-container {
+  background-position: center 100% !important;
+}
+.web-item:hover .img-overlay {
+  opacity: 1;
+  visibility: visible;
+  bottom: 0;
+}
+.ribbon-1{width: 29px;}
+.ribbon-1::after {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-left: 15px solid #10b981;
+  border-right: 14px solid #10b981;
+  border-bottom: 15px solid transparent;
+  bottom: -15px;
+  left: 0;
+}
+.ribbon-1::before {
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-bottom: 6px solid #10b981;
+  border-right: 6px solid transparent;
+  right: -6px;
+}

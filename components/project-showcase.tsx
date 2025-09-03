@@ -7,12 +7,13 @@ import { Button } from "@/components/ui/button"
 const projects = [
   {
     id: 1,
-    title: "E-commerce Platform",
-    description: "Full-featured online store with payment integration, inventory management, and admin dashboard.",
-    category: "wordpress",
-    image: "/modern-ecommerce-website-with-shopping-cart.png",
-    url: "https://example-ecommerce.com",
-    tech: ["WordPress", "WooCommerce", "PHP", "MySQL"],
+    title: "House History",
+    description: "HouseHistory.com is a storytelling platform built on WordPress, where users can explore and share the history of homes and architecture",
+    category: "WordPress",
+    image: "/househistory.png",
+    url: "https://househistory.com/",
+    tech: ["WordPress", "PHP", "MySQL", "HTML5", "CSS", "JavaScript"],
+    ribon: true,
   },
   {
     id: 2,
